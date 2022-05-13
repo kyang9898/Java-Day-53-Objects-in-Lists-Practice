@@ -1,15 +1,15 @@
 public class Animal {
 
-    private String name;
+    private String nameOfDog;
     private boolean seeIfDog;
 
-    public Animal (String name, boolean seeIfDog) {
-        this.name = name;
+    public Animal (String nameOfDog, boolean seeIfDog) {
+        this.nameOfDog = nameOfDog;
         this.seeIfDog = seeIfDog;
     }
 
     public String getName() {
-        return name;
+        return nameOfDog;
     }
 
     public boolean seeIfDog() {
